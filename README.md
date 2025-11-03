@@ -1,0 +1,1 @@
+# disparador-ia-frontend
