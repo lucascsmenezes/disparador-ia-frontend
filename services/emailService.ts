@@ -16,10 +16,7 @@ export const sendEmailNotification = async (
   userEmail: string,
   details: EmailDetails
 ): Promise<void> => {
-  // ATENÇÃO: Substitua a URL abaixo pela URL que a Vercel forneceu para o seu backend!
-  // Cole a sua URL aqui. Exemplo: https://meu-backend-1234.vercel.app
-  const backendUrl = 'disparador-ia-frontend-cdny17k60-lucascsmenezes-projects.vercel.app'; 
-  const endpoint = `${backendUrl}/api/send-email`;
+  const endpoint = `/api/send-email`;
 
   const payload = {
     status,
